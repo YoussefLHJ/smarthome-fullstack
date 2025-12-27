@@ -1,0 +1,36 @@
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: smart-house
+    ports:
+      - "3306:3306"
+
+  backend:
+    build:
+      context: ./SmartHome-Backend
+    ports:
+      - "8082:8082"
+    depends_on:
+      mysql:
+        condition: service_started
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/smart-house
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root-123
+    healthcheck:
+      test: "/usr/bin/mysql --user=root --password=root --execute \"SHOW DATABASES;\""
+      interval: 5s
+      timeout: 2s
+      retries: 100
+
+  frontend:
+    build:
+      context: SmartHome-Frontend
+    ports:
+      - "80:80"
+    depends_on:
+      backend:
+        condition: service_started
