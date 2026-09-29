@@ -1,14 +1,23 @@
-## 1. Fenêtre modale d’ajout d’une catégorie dans le système SmartHome
-![img.png](screens/img.png)
+# SmartHome Full Stack
 
-## 2. Interface de gestion des catégories – Liste des catégories existantes
-![img_1.png](screens/img_1.png)
+A SmartHome management exercise with an interface for categories and connected devices, plus relational data access.
 
-## 3. Fenêtre modale d’ajout d’un appareil avec formulaire et import d’image
-![img_2.png](screens/img_2.png)
+## Demonstrated features
 
-## 4. Interface utilisateur – Liste des appareils connectés avec contrôle d’état
-![img_3.png](screens/img_3.png)
+- Category management UI
+- Device management UI
+- Device image import in the demonstrated form
+- Device state display
+- SQL querying across category/device data
 
-## 5. Requête SQL affichant les données jointes des tables Catégorie et Appareil
-![img_4.png](screens/img_4.png)
+## Screenshots
+
+![Add category](screens/img.png)
+![Category list](screens/img_1.png)
+![Add device](screens/img_2.png)
+![Connected devices](screens/img_3.png)
+![Joined data query](screens/img_4.png)
+
+## Coursework
+
+This repository is included as a full-stack coursework project; screenshots are retained as evidence of the demonstrated functionality.
