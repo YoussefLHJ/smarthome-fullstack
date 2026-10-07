@@ -1,9 +1,0 @@
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/service/CategorieService.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/entity/Categorie.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/repository/AppareilRepository.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/entity/Appareil.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/service/AppareilService.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/AppareilApplication.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/cotroller/CategorieController.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/repository/CategorieRepository.java
-/home/yousseflhj/EMSI/SM3/AC/TPs/TP24/SmartHome-Backend/src/main/java/com/example/appareil/cotroller/AppareilController.java

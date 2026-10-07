@@ -1,3 +1,6 @@
 node_modules/
 SmartHome-Frontend/.angular/
 ".angular/" 
+**/target/
+.idea/
+*.iml
